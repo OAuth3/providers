@@ -1,4 +1,4 @@
-"directives": {
+{
   "authorization_dialog": {
     "method": "GET"
   , "url": "https://example-api.com/api/oauth3/authorization_dialog"
