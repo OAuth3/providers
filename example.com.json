@@ -1,0 +1,18 @@
+"directives": {
+  "authorization_dialog": {
+    "method": "GET"
+  , "url": "https://example-api.com/api/oauth3/authorization_dialog"
+  }
+, "access_token": {
+    "method": "GET"
+  , "url": "https://example-api.com/api/oauth3/access_token"
+  , "params": {
+      "redirect_uri": true
+    }
+  }
+, "profile": {
+    "method": "GET"
+  , "url": "https://example-api.com/api/oauth3/accounts/:account_id"
+  }
+, "authn_scope": ""
+}
