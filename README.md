@@ -38,7 +38,7 @@ Example: Facebook
 
 Note: user's interact with facebook at `https://www.facebook.com`, so we strip off the `https://` as well as the `www` to get `facebook.com.json`:
 
-```
+```json
 "directives": {
   "authorization_dialog": {
     "method": "GET"
