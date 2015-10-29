@@ -1,0 +1,18 @@
+{
+  "authorization_dialog": {
+    "method": "GET"
+  , "url": "https://www.facebook.com/dialog/oauth"
+  }
+, "access_token": {
+    "method": "GET"
+  , "url": "https://graph.facebook.com/v2.5/oauth/access_token"
+  , "params": {
+      "redirect_uri": "https://oauth3.org" + "/api/oauth3/authorization_code_callback/facebook.com"
+    }
+  }
+, "profile": {
+    "method": "GET"
+  , "url": "https://graph.facebook.com/v2.5/me"
+  }
+, "authn_scope": ""
+}
