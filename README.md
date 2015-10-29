@@ -6,7 +6,7 @@ This repository is used to provide transitional support to OAuth2 providers who 
 Are you an OAuth2 Provider?
 ===================
 
-You should add an OAuth3 directive directly to your website.
+You should add an OAuth3 directive directly to your website, not this repository.
 
 For example, if users come to your site at `https://www.example.net` you should place your OAuth3 directive
 at `https://example.net/oauth3.json`.
